@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HarvestSubView" customModule="Superplum" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="475" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfj-Ia-MS1" customClass="CustomLabel" customModule="Superplum" customModuleProvider="target">
+                    <rect key="frame" x="20" y="25.5" width="221" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="221" id="4BI-Ru-Hsa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="IsMediumFont" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDV-f2-ge7" customClass="CustomLabel" customModule="Superplum" customModuleProvider="target">
+                    <rect key="frame" x="338" y="25.5" width="117" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="117" id="NpE-fn-k9p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="IsMediumFont" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hfj-Ia-MS1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Qur-VL-kEs"/>
+                <constraint firstItem="aDV-f2-ge7" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Ty3-Fq-yDm"/>
+                <constraint firstItem="hfj-Ia-MS1" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="cRq-oY-uIk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aDV-f2-ge7" secondAttribute="trailing" constant="20" id="yNF-vC-nQP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblTitle" destination="hfj-Ia-MS1" id="25X-rv-j47"/>
+                <outlet property="lblValue" destination="aDV-f2-ge7" id="wFf-lr-nIh"/>
+            </connections>
+            <point key="canvasLocation" x="181.8840579710145" y="-108.81696428571428"/>
+        </view>
+    </objects>
+</document>

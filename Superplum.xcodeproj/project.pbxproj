@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA4546BCEA9C6C0ABBB9CFF /* Pods_Superplum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2C1BE960DF65FE011ADB9B /* Pods_Superplum.framework */; };
+		9D0E0D71245FFD830088BA7D /* Result1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0D70245FFD820088BA7D /* Result1.json */; };
+		9D1E02C72454088E00DC2CBB /* SuperplumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1E02C62454088E00DC2CBB /* SuperplumModel.swift */; };
+		9D248D68245A93C40004B8E5 /* HarvestSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D248D67245A93C40004B8E5 /* HarvestSubView.xib */; };
+		9D248D6A245A946F0004B8E5 /* HarvestSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D248D69245A946F0004B8E5 /* HarvestSubView.swift */; };
+		9D256AE024531604008AB92F /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D256ADF24531604008AB92F /* PDFViewController.swift */; };
+		9D256AE224531888008AB92F /* FoodSafetyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D256AE124531888008AB92F /* FoodSafetyCell.swift */; };
+		9D2BB58924593D9200F573BA /* GraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2BB58824593D9200F573BA /* GraphCell.swift */; };
+		9D551F302452E86B00B6AAF6 /* HarvestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D551F2F2452E86B00B6AAF6 /* HarvestCell.swift */; };
+		9D6369F524516C7500F0D2AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6369F424516C7500F0D2AC /* AppDelegate.swift */; };
+		9D6369F924516C7500F0D2AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6369F824516C7500F0D2AC /* ViewController.swift */; };
+		9D6369FC24516C7500F0D2AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6369FA24516C7500F0D2AC /* Main.storyboard */; };
+		9D6369FE24516C7900F0D2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6369FD24516C7900F0D2AC /* Assets.xcassets */; };
+		9D636A0124516C7900F0D2AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6369FF24516C7900F0D2AC /* LaunchScreen.storyboard */; };
+		9D636A0924516D6100F0D2AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D636A0824516D6100F0D2AC /* DetailViewController.swift */; };
+		9D636A0B2451732F00F0D2AC /* OwnerNamePlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D636A0A2451732F00F0D2AC /* OwnerNamePlaceCell.swift */; };
+		9D636A0E245182BF00F0D2AC /* ProductNameAndImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D636A0D245182BF00F0D2AC /* ProductNameAndImage.swift */; };
+		9D636A102451959000F0D2AC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D636A0F2451959000F0D2AC /* NetworkManager.swift */; };
+		9D9650592456FE9300711594 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9650582456FE9300711594 /* CustomLabel.swift */; };
+		9D9650732457066900711594 /* Type Atelier - Gordita Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D96506E2457066900711594 /* Type Atelier - Gordita Bold.otf */; };
+		9D9650742457066900711594 /* Type Atelier - Gordita.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D96506F2457066900711594 /* Type Atelier - Gordita.otf */; };
+		9D9650752457066900711594 /* Type Atelier - Gordita Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D9650702457066900711594 /* Type Atelier - Gordita Black.otf */; };
+		9D9650762457066900711594 /* Type Atelier - Gordita Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D9650712457066900711594 /* Type Atelier - Gordita Medium.otf */; };
+		9D9650772457066900711594 /* Type Atelier - Gordita Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D9650722457066900711594 /* Type Atelier - Gordita Light.otf */; };
+		9D9D6C12245969A500F638A9 /* AutoLogoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D6C11245969A500F638A9 /* AutoLogoutManager.swift */; };
+		9DACF14724569F8F00D2A9C1 /* FarmerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACF14624569F8F00D2A9C1 /* FarmerCell.swift */; };
+		9DACF1492456B0A700D2A9C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACF1482456B0A700D2A9C1 /* Extensions.swift */; };
+		9DACF14B2456B31500D2A9C1 /* FlagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACF14A2456B31500D2A9C1 /* FlagCell.swift */; };
+		9DCEC69124581C1E004311E7 /* loadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC68F24581C1D004311E7 /* loadingView.xib */; };
+		9DCEC69224581C1E004311E7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC69024581C1D004311E7 /* LoadingView.swift */; };
+		9DCEC69424581D95004311E7 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC69324581D95004311E7 /* MessageView.xib */; };
+		9DCEC69624581F80004311E7 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC69524581F80004311E7 /* MessageView.swift */; };
+		9DF2876C2459A958001E4F88 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2876B2459A958001E4F88 /* DateFormatters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		617B4BE5E4A5AC3A599383AE /* Pods-Superplum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superplum.release.xcconfig"; path = "Target Support Files/Pods-Superplum/Pods-Superplum.release.xcconfig"; sourceTree = "<group>"; };
+		7F2C1BE960DF65FE011ADB9B /* Pods_Superplum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Superplum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0E0D70245FFD820088BA7D /* Result1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Result1.json; sourceTree = "<group>"; };
+		9D1E02C62454088E00DC2CBB /* SuperplumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperplumModel.swift; sourceTree = "<group>"; };
+		9D248D67245A93C40004B8E5 /* HarvestSubView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HarvestSubView.xib; sourceTree = "<group>"; };
+		9D248D69245A946F0004B8E5 /* HarvestSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestSubView.swift; sourceTree = "<group>"; };
+		9D256ADF24531604008AB92F /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		9D256AE124531888008AB92F /* FoodSafetyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSafetyCell.swift; sourceTree = "<group>"; };
+		9D2BB58824593D9200F573BA /* GraphCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCell.swift; sourceTree = "<group>"; };
+		9D551F2F2452E86B00B6AAF6 /* HarvestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestCell.swift; sourceTree = "<group>"; };
+		9D6369F124516C7500F0D2AC /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6369F424516C7500F0D2AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D6369F824516C7500F0D2AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D6369FB24516C7500F0D2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D6369FD24516C7900F0D2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D636A0024516C7900F0D2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D636A0224516C7900F0D2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D636A0824516D6100F0D2AC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9D636A0A2451732F00F0D2AC /* OwnerNamePlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerNamePlaceCell.swift; sourceTree = "<group>"; };
+		9D636A0D245182BF00F0D2AC /* ProductNameAndImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductNameAndImage.swift; sourceTree = "<group>"; };
+		9D636A0F2451959000F0D2AC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9D9650582456FE9300711594 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		9D96506E2457066900711594 /* Type Atelier - Gordita Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Type Atelier - Gordita Bold.otf"; sourceTree = "<group>"; };
+		9D96506F2457066900711594 /* Type Atelier - Gordita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Type Atelier - Gordita.otf"; sourceTree = "<group>"; };
+		9D9650702457066900711594 /* Type Atelier - Gordita Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Type Atelier - Gordita Black.otf"; sourceTree = "<group>"; };
+		9D9650712457066900711594 /* Type Atelier - Gordita Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Type Atelier - Gordita Medium.otf"; sourceTree = "<group>"; };
+		9D9650722457066900711594 /* Type Atelier - Gordita Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Type Atelier - Gordita Light.otf"; sourceTree = "<group>"; };
+		9D9D6C11245969A500F638A9 /* AutoLogoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLogoutManager.swift; sourceTree = "<group>"; };
+		9DACF14624569F8F00D2A9C1 /* FarmerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerCell.swift; sourceTree = "<group>"; };
+		9DACF1482456B0A700D2A9C1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9DACF14A2456B31500D2A9C1 /* FlagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCell.swift; sourceTree = "<group>"; };
+		9DCEC68F24581C1D004311E7 /* loadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loadingView.xib; sourceTree = "<group>"; };
+		9DCEC69024581C1D004311E7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9DCEC69324581D95004311E7 /* MessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		9DCEC69524581F80004311E7 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		9DF2876B2459A958001E4F88 /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		A94BC8D0E299638E76929AA7 /* Pods-Superplum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superplum.debug.xcconfig"; path = "Target Support Files/Pods-Superplum/Pods-Superplum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6369EE24516C7500F0D2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA4546BCEA9C6C0ABBB9CFF /* Pods_Superplum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021DBA27A025225A99FE4A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A94BC8D0E299638E76929AA7 /* Pods-Superplum.debug.xcconfig */,
+				617B4BE5E4A5AC3A599383AE /* Pods-Superplum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		43941F97EF2FCD80D7900F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F2C1BE960DF65FE011ADB9B /* Pods_Superplum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D1E02C82454089400DC2CBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D1E02C62454088E00DC2CBB /* SuperplumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D6369E824516C7500F0D2AC = {
+			isa = PBXGroup;
+			children = (
+				9D0E0D70245FFD820088BA7D /* Result1.json */,
+				9D6369F324516C7500F0D2AC /* Superplum */,
+				9D6369F224516C7500F0D2AC /* Products */,
+				021DBA27A025225A99FE4A38 /* Pods */,
+				43941F97EF2FCD80D7900F37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6369F224516C7500F0D2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6369F124516C7500F0D2AC /* Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6369F324516C7500F0D2AC /* Superplum */ = {
+			isa = PBXGroup;
+			children = (
+				9D9650782457068400711594 /* Font */,
+				9D636A0224516C7900F0D2AC /* Info.plist */,
+				9DACF14524569EFB00D2A9C1 /* Common */,
+				9DACF14224569EAF00D2A9C1 /* Controllers */,
+				9DACF14324569ED000D2A9C1 /* Storyboards */,
+				9DACF14424569EDD00D2A9C1 /* Assests */,
+				9D636A0C2451735A00F0D2AC /* Cells */,
+				9D1E02C82454089400DC2CBB /* Model */,
+			);
+			path = Superplum;
+			sourceTree = "<group>";
+		};
+		9D636A0C2451735A00F0D2AC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9D636A0A2451732F00F0D2AC /* OwnerNamePlaceCell.swift */,
+				9D636A0D245182BF00F0D2AC /* ProductNameAndImage.swift */,
+				9D551F2F2452E86B00B6AAF6 /* HarvestCell.swift */,
+				9D256AE124531888008AB92F /* FoodSafetyCell.swift */,
+				9DACF14624569F8F00D2A9C1 /* FarmerCell.swift */,
+				9DACF14A2456B31500D2A9C1 /* FlagCell.swift */,
+				9D2BB58824593D9200F573BA /* GraphCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9D9650782457068400711594 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9D9650702457066900711594 /* Type Atelier - Gordita Black.otf */,
+				9D96506E2457066900711594 /* Type Atelier - Gordita Bold.otf */,
+				9D9650722457066900711594 /* Type Atelier - Gordita Light.otf */,
+				9D9650712457066900711594 /* Type Atelier - Gordita Medium.otf */,
+				9D96506F2457066900711594 /* Type Atelier - Gordita.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9DACF14224569EAF00D2A9C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D6369F824516C7500F0D2AC /* ViewController.swift */,
+				9D636A0824516D6100F0D2AC /* DetailViewController.swift */,
+				9D256ADF24531604008AB92F /* PDFViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DACF14324569ED000D2A9C1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9D6369FA24516C7500F0D2AC /* Main.storyboard */,
+				9D6369FF24516C7900F0D2AC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9DACF14424569EDD00D2A9C1 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6369FD24516C7900F0D2AC /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		9DACF14524569EFB00D2A9C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9DCEC69024581C1D004311E7 /* LoadingView.swift */,
+				9DCEC68F24581C1D004311E7 /* loadingView.xib */,
+				9DACF1482456B0A700D2A9C1 /* Extensions.swift */,
+				9D6369F424516C7500F0D2AC /* AppDelegate.swift */,
+				9D636A0F2451959000F0D2AC /* NetworkManager.swift */,
+				9D9650582456FE9300711594 /* CustomLabel.swift */,
+				9DCEC69324581D95004311E7 /* MessageView.xib */,
+				9DCEC69524581F80004311E7 /* MessageView.swift */,
+				9D9D6C11245969A500F638A9 /* AutoLogoutManager.swift */,
+				9DF2876B2459A958001E4F88 /* DateFormatters.swift */,
+				9D248D67245A93C40004B8E5 /* HarvestSubView.xib */,
+				9D248D69245A946F0004B8E5 /* HarvestSubView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6369F024516C7500F0D2AC /* Superplum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D636A0524516C7900F0D2AC /* Build configuration list for PBXNativeTarget "Superplum" */;
+			buildPhases = (
+				C4790198EFB604457A00F251 /* [CP] Check Pods Manifest.lock */,
+				9D6369ED24516C7500F0D2AC /* Sources */,
+				9D6369EE24516C7500F0D2AC /* Frameworks */,
+				9D6369EF24516C7500F0D2AC /* Resources */,
+				98E4AEEAFCCE0E8D909FF164 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Superplum;
+			productName = Superplum;
+			productReference = 9D6369F124516C7500F0D2AC /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6369E924516C7500F0D2AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Nitin;
+				TargetAttributes = {
+					9D6369F024516C7500F0D2AC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9D6369EC24516C7500F0D2AC /* Build configuration list for PBXProject "Superplum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D6369E824516C7500F0D2AC;
+			productRefGroup = 9D6369F224516C7500F0D2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6369F024516C7500F0D2AC /* Superplum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6369EF24516C7500F0D2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D636A0124516C7900F0D2AC /* LaunchScreen.storyboard in Resources */,
+				9D6369FE24516C7900F0D2AC /* Assets.xcassets in Resources */,
+				9DCEC69424581D95004311E7 /* MessageView.xib in Resources */,
+				9D9650762457066900711594 /* Type Atelier - Gordita Medium.otf in Resources */,
+				9D0E0D71245FFD830088BA7D /* Result1.json in Resources */,
+				9D248D68245A93C40004B8E5 /* HarvestSubView.xib in Resources */,
+				9D9650742457066900711594 /* Type Atelier - Gordita.otf in Resources */,
+				9D9650772457066900711594 /* Type Atelier - Gordita Light.otf in Resources */,
+				9D9650732457066900711594 /* Type Atelier - Gordita Bold.otf in Resources */,
+				9D9650752457066900711594 /* Type Atelier - Gordita Black.otf in Resources */,
+				9DCEC69124581C1E004311E7 /* loadingView.xib in Resources */,
+				9D6369FC24516C7500F0D2AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98E4AEEAFCCE0E8D909FF164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Superplum/Pods-Superplum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Superplum/Pods-Superplum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Superplum/Pods-Superplum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4790198EFB604457A00F251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Superplum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6369ED24516C7500F0D2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF2876C2459A958001E4F88 /* DateFormatters.swift in Sources */,
+				9D248D6A245A946F0004B8E5 /* HarvestSubView.swift in Sources */,
+				9DACF14724569F8F00D2A9C1 /* FarmerCell.swift in Sources */,
+				9D551F302452E86B00B6AAF6 /* HarvestCell.swift in Sources */,
+				9D636A102451959000F0D2AC /* NetworkManager.swift in Sources */,
+				9D9650592456FE9300711594 /* CustomLabel.swift in Sources */,
+				9DACF14B2456B31500D2A9C1 /* FlagCell.swift in Sources */,
+				9D636A0E245182BF00F0D2AC /* ProductNameAndImage.swift in Sources */,
+				9D256AE024531604008AB92F /* PDFViewController.swift in Sources */,
+				9D636A0B2451732F00F0D2AC /* OwnerNamePlaceCell.swift in Sources */,
+				9D9D6C12245969A500F638A9 /* AutoLogoutManager.swift in Sources */,
+				9DCEC69224581C1E004311E7 /* LoadingView.swift in Sources */,
+				9D1E02C72454088E00DC2CBB /* SuperplumModel.swift in Sources */,
+				9DACF1492456B0A700D2A9C1 /* Extensions.swift in Sources */,
+				9D256AE224531888008AB92F /* FoodSafetyCell.swift in Sources */,
+				9DCEC69624581F80004311E7 /* MessageView.swift in Sources */,
+				9D636A0924516D6100F0D2AC /* DetailViewController.swift in Sources */,
+				9D6369F924516C7500F0D2AC /* ViewController.swift in Sources */,
+				9D2BB58924593D9200F573BA /* GraphCell.swift in Sources */,
+				9D6369F524516C7500F0D2AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D6369FA24516C7500F0D2AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6369FB24516C7500F0D2AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6369FF24516C7900F0D2AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D636A0024516C7900F0D2AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D636A0324516C7900F0D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D636A0424516C7900F0D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D636A0624516C7900F0D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94BC8D0E299638E76929AA7 /* Pods-Superplum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Superplum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.sample;
+				PRODUCT_NAME = Sample;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D636A0724516C7900F0D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617B4BE5E4A5AC3A599383AE /* Pods-Superplum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Superplum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.sample;
+				PRODUCT_NAME = Sample;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6369EC24516C7500F0D2AC /* Build configuration list for PBXProject "Superplum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D636A0324516C7900F0D2AC /* Debug */,
+				9D636A0424516C7900F0D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D636A0524516C7900F0D2AC /* Build configuration list for PBXNativeTarget "Superplum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D636A0624516C7900F0D2AC /* Debug */,
+				9D636A0724516C7900F0D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6369E924516C7500F0D2AC /* Project object */;
+}
